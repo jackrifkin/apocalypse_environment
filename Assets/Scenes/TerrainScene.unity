@@ -395,7 +395,7 @@ PrefabInstance:
     - target: {fileID: 5285874360393407691, guid: 4c5931ab2e75a014f944f389a8246f84,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3671913
+      value: 3.58
       objectReference: {fileID: 0}
     - target: {fileID: 5285874360393407691, guid: 4c5931ab2e75a014f944f389a8246f84,
         type: 3}
@@ -1025,7 +1025,7 @@ PrefabInstance:
     - target: {fileID: 2318991803950314077, guid: 2019e208f3c65ee4cb01f3735388bf01,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 2318991803950314077, guid: 2019e208f3c65ee4cb01f3735388bf01,
         type: 3}
@@ -1441,7 +1441,7 @@ PrefabInstance:
     - target: {fileID: 4268450645858715553, guid: 8a7ccfcbca6526548968dbe4b5850059,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 4268450645858715553, guid: 8a7ccfcbca6526548968dbe4b5850059,
         type: 3}
@@ -1589,7 +1589,6 @@ SceneRoots:
   - {fileID: 1077464290}
   - {fileID: 76067414}
   - {fileID: 132244486}
-  - {fileID: 1936911058}
   - {fileID: 1863522052}
   - {fileID: 528958426}
   - {fileID: 1377136752}
@@ -1600,5 +1599,6 @@ SceneRoots:
   - {fileID: 1601409562}
   - {fileID: 715464214}
   - {fileID: 1318745377}
+  - {fileID: 1936911058}
   - {fileID: 1353184485}
   - {fileID: 712381952}
