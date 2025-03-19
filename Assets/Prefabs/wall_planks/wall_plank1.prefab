@@ -71,7 +71,17 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 70cfcaee543419c4a83dde9dad78d1c6,
         type: 3}
       propertyPath: m_Name
-      value: wall_plank1_prefab
+      value: wall_plank1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70cfcaee543419c4a83dde9dad78d1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3401636865348611788, guid: 70cfcaee543419c4a83dde9dad78d1c6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

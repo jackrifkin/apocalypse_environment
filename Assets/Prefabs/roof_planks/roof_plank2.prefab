@@ -58,10 +58,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3210643073053441405, guid: edfe4f4742dfc8c47b4b813fea9acf4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: edfe4f4742dfc8c47b4b813fea9acf4e,
         type: 3}
       propertyPath: m_Name
       value: roof_plank2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edfe4f4742dfc8c47b4b813fea9acf4e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6929002106361138861, guid: edfe4f4742dfc8c47b4b813fea9acf4e,
         type: 3}

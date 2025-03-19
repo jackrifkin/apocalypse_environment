@@ -58,10 +58,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2304189481225080340, guid: 0bd6b0324aae5af458e79898a7e10700,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0bd6b0324aae5af458e79898a7e10700,
         type: 3}
       propertyPath: m_Name
       value: wall_plank5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0bd6b0324aae5af458e79898a7e10700,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 920689715329559535, guid: 0bd6b0324aae5af458e79898a7e10700,
         type: 3}

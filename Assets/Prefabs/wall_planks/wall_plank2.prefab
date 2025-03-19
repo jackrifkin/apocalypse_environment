@@ -63,10 +63,20 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -3210643073053441405, guid: 94a51e7680d341844811f7c9f98c7f0a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 94a51e7680d341844811f7c9f98c7f0a,
         type: 3}
       propertyPath: m_Name
       value: wall_plank2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94a51e7680d341844811f7c9f98c7f0a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6929002106361138861, guid: 94a51e7680d341844811f7c9f98c7f0a,
         type: 3}
