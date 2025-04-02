@@ -9,12 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6618419989044912476}
+  - component: {fileID: -2637909459024431521}
   m_Layer: 0
   m_Name: full_height_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6618419989044912476
 Transform:
@@ -33,6 +34,48 @@ Transform:
   - {fileID: 6281632800236333967}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &-2637909459024431521
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7471597097122352222}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &1845846570005160331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45,6 +88,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: metal_wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 5042559063623258302, guid: 7c902dddc92f29a4db3b494b2c4fcf26,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5670335863825926660, guid: 7c902dddc92f29a4db3b494b2c4fcf26,
         type: 3}
@@ -134,6 +182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: wall_with_wire
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018814736428589879, guid: 02b261298c325a94fb0c9780cdd28ccb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8318935844353360732, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
@@ -225,6 +278,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -1.269
       objectReference: {fileID: 0}
+    - target: {fileID: 8662986968063416806, guid: 02b261298c325a94fb0c9780cdd28ccb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8977780933317344906, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -274,6 +332,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9001390343177426677, guid: 02b261298c325a94fb0c9780cdd28ccb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
