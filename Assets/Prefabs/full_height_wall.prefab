@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 127
   m_IsActive: 1
 --- !u!4 &6618419989044912476
 Transform:
@@ -45,7 +45,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -92,7 +92,7 @@ PrefabInstance:
     - target: {fileID: 5042559063623258302, guid: 7c902dddc92f29a4db3b494b2c4fcf26,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 5670335863825926660, guid: 7c902dddc92f29a4db3b494b2c4fcf26,
         type: 3}
@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 4018814736428589879, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8318935844353360732, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
@@ -281,7 +281,7 @@ PrefabInstance:
     - target: {fileID: 8662986968063416806, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8977780933317344906, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
@@ -336,7 +336,7 @@ PrefabInstance:
     - target: {fileID: 9001390343177426677, guid: 02b261298c325a94fb0c9780cdd28ccb,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 127
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
