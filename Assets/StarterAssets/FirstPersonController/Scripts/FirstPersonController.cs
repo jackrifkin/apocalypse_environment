@@ -56,7 +56,7 @@ namespace StarterAssets
 
 		// player
 		private float _speed;
-		private float _rotationVelocity;
+		private Vector2 _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;
 
@@ -137,18 +137,20 @@ namespace StarterAssets
 				//Don't multiply mouse input by Time.deltaTime
 				float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
 				
-				_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
-				_rotationVelocity = _input.look.x * RotationSpeed * deltaTimeMultiplier;
+				//_cinemachineTargetPitch += _input.look.y * RotationSpeed * deltaTimeMultiplier;
+				_rotationVelocity = _input.look * new Vector2(RotationSpeed, RotationSpeed) * new Vector2(deltaTimeMultiplier, deltaTimeMultiplier);
 
-				// clamp our pitch rotation
-				_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
+                // clamp our pitch rotation
+                //_cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
 
-				// Update Cinemachine camera target pitch
-				CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
+                // Update Cinemachine camera target pitch
+                //CinemachineCameraTarget.transform.localRotation = Quaternion.Euler(_cinemachineTargetPitch, 0.0f, 0.0f);
 
-				// rotate the player left and right
-				transform.Rotate(Vector3.up * _rotationVelocity);
-			}
+                // rotate the player left and right
+                transform.Rotate(Vector3.up * _rotationVelocity.x);
+				// rotate the camera up and down
+				_mainCamera.transform.Rotate(Vector3.right * _rotationVelocity.y);
+            }
 		}
 
 		private void Move()
